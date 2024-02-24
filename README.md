@@ -1,53 +1,54 @@
-# aleph_hackthon
-# Projet de Traduction de Langue des Signes en Python
+# Aleph Hackathon
 
-Ce projet vise à développer un système d'IA capable de traduire la langue des signes en texte et en parole, ainsi que de traduire la parole en texte puis en langue des signes. Le système utilise Aleph VM, une machine virtuelle puissante pour les tâches d'apprentissage automatique.
+In this project, we are presenting a decentralized platform that combines the functionalities of "Hugging Face" and Google Colab. Our focus is on addressing the issues of dataset security, decentralized computing power, and creating a marketplace for model shareability.
 
-## Aperçu
+## Problem Statement
 
-La capacité de traduire la langue des signes en langue parlée et vice versa peut considérablement améliorer l'accessibilité à la communication pour les personnes malentendantes. Ce projet exploite des techniques d'apprentissage profond pour reconnaître et générer des gestes de langue des signes, ainsi que pour transcrire et synthétiser la parole.
+In the realm of AI and machine learning, accessing and training models with sensitive datasets while ensuring security is a significant challenge. Additionally, leveraging ample computing power for model training can be costly and inefficient. Furthermore, sharing trained models and accessing them securely is another bottleneck in the current landscape. Our project aims to tackle these challenges head-on by offering a decentralized solution.
 
-## Fonctionnalités
+## Features Breakdown
 
-- **Traduction de la Langue des Signes en Texte** : Reconnaît les gestes de la langue des signes et les traduit en texte écrit.
-- **Synthèse de la Parole à partir du Texte** : Convertit le texte écrit en langue parlée.
-- **Traduction de la Parole en Texte** : Transcrit la langue parlée en texte écrit.
-- **Traduction du Texte en Langue des Signes** : Génère des gestes de langue des signes à partir du texte écrit.
+### Secure Dataset Upload
+- We enable secure dataset uploads via [Aleph.im](http://aleph.im) decentralized storage. This ensures that sensitive data remains secure and accessible only to authorized users.
 
-## Technologies Utilisées
+### Decentralized Model Training
+- Utilizing decentralized GPU power, we facilitate model training without the need for centralized computing resources. This approach enhances scalability and reduces the cost associated with model training.
 
-- **Aleph VM** : Une machine virtuelle optimisée pour les charges de travail d'apprentissage automatique.
-- **Python** : Langage de programmation utilisé pour le développement.
-- **TensorFlow** : Cadre d'apprentissage profond pour l'entraînement et l'inférence.
-- **OpenCV** : Bibliothèque pour les tâches de vision par ordinateur, utilisée pour la reconnaissance des gestes de langue des signes.
-- **SpeechRecognition** : Bibliothèque Python pour la reconnaissance vocale.
-- **Moteurs de Synthèse Vocale** : TBD (Choisir un moteur TTS approprié comme pyttsx3 ou gTTS).
-- **Outils de Traitement du Langage Naturel (NLP)** : TBD (Choisir des outils NLP appropriés pour le traitement du texte).
+### Shareable Output Models
+- Users can share output models securely with others using a unique access_token and UUID. This ensures that only authorized individuals can access the trained models. Moreover, users have the opportunity to monetize their models based on usage.
 
-## Utilisation
+### Decentralized Marketplace (Paid Service)
+- Similar to "Hugging Face," we offer a decentralized marketplace where users can discover and access verified models for a fee. This marketplace fosters collaboration and innovation within the AI community.
 
-1. **Installation** :
-   - Clonez le dépôt.
-   - Installez les dépendances répertoriées dans `requirements.txt`.
-   
-2. **Entraînement** (Optionnel) :
-   - Entraînez les modèles d'apprentissage automatique à l'aide des ensembles de données fournis ou de vos propres données.
-   
-3. **Exécution** :
-   - Exécutez les scripts appropriés pour la traduction de la langue des signes en texte, du texte en parole, de la parole en texte ou du texte en langue des signes.
+### Rewards System
+- To incentivize participation and contribution, each user receives rewards in Aleph tokens based on the usage of their models. These tokens can be utilized to access more computing power or traded within the ecosystem.
 
-4. **Intégration** :
-   - Intégrez les capacités de traduction dans votre application ou plateforme en utilisant les API ou bibliothèques fournies.
+## Key Considerations
 
-## Contribuer
+### Security
+- Security is paramount in our platform. We employ robust encryption and authentication mechanisms to safeguard datasets and models from unauthorized access.
 
-Les contributions visant à améliorer la précision, l'efficacité ou la convivialité du système de traduction sont les bienvenues. Veuillez suivre les directives décrites dans `CONTRIBUTING.md`.
+### Speed
+- We prioritize speed in all aspects of our platform, from dataset uploads to model training and inference. By leveraging decentralized computing resources, we ensure fast and efficient operations.
 
-## Licence
+### UI/UX
+- A user-friendly interface is essential for widespread adoption. We focus on creating an intuitive and visually appealing user experience to enhance usability and accessibility.
 
-Ce projet est sous licence MIT - voir le fichier `LICENSE` pour plus de détails.
+## Getting Started
 
-## Remerciements
+To get started with our project, follow these steps:
+1. Clone this repository to your local machine.
+2. Install the required dependencies listed in the `requirements.txt` file.
+3. Follow the setup instructions in the `README.md` file to use and configure the platform.
+4. Explore the features and functionalities of the platform and contribute to its development.
 
-- Merci aux contributeurs de Aleph VM pour avoir fourni une plateforme d'apprentissage automatique puissante.
-- Un merci spécial à la communauté open-source pour ses précieuses bibliothèques et outils utilisés dans ce projet.
+## Contributions
+
+We welcome contributions from the community to enhance and improve our platform. Whether you're a developer, designer, or AI enthusiast, there are plenty of opportunities to get involved. Check out our contribution guidelines in the `CONTRIBUTING.md` file to learn how you can contribute.
+
+## Contact Us
+
+If you have any questions, feedback, or suggestions, feel free to reach out to us. You can contact the project team via email at [team@mail.com](mailto:team@alephhackathon.com) or join us on [Discord](link).
+
+Let's revolutionize the world of AI together with decentralized innovation! 🚀
+
