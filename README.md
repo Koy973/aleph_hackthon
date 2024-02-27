@@ -48,7 +48,7 @@ We welcome contributions from the community to enhance and improve our platform.
 
 ## Contact Us
 
-If you have any questions, feedback, or suggestions, feel free to reach out to us. You can contact the project team via email at [team@mail.com](mailto:team@alephhackathon.com) or join us on [Discord](link).
+If you have any questions, feedback, or suggestions, feel free to reach out to us. You can contact the project team via email at [zouhairiiadam@gmail.com](mailto:zouhairiiadam@gmail.com), [hugolebelzic@protonmail.com](mailto:hugolebelzic@protonmail.com) and [koyan.laures-ribal@epita.fr](mailto:koyan.laures-ribal@epita.fr).
 
 Let's revolutionize the world of AI together with decentralized innovation! 🚀
 
